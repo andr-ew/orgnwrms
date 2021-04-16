@@ -3,8 +3,9 @@ w = include 'wrms/wrms'
 
 function init()
     w.setup()
-    w.wrms_:init()
     params:bang()
+    w.wrms_:init()
+    w.sc.scoot()
 end
 
 function cleanup()
