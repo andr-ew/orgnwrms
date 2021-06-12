@@ -1,12 +1,11 @@
-o = include 'orgn/orgn'
-w = include 'wrms/wrms'
+include 'orgn/orgn'
+include 'wrms/wrms'
+w = { init = init }
 
 function init()
-    w.setup()
-    params:bang()
-    w.wrms_:init()
-    w.sc.scoot()
+    orgn.init()
+    orgn_:init()
+    w.init()
 end
 
-function cleanup()
-end
+
