@@ -1,3 +1,5 @@
+orgn_noscreen = true
+
 include 'orgn/orgn' 
 include 'wrms/wrms'
 w = { init = init }
