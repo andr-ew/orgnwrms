@@ -13,8 +13,9 @@
 -- https://norns.community/
 -- authors/andrew/orgnwrms
 --
--- required: midi keyboard
--- or grid
+-- required: 
+-- orgn + wrms installed
+-- midi keyboard or grid
 --
 -- the two bottom right keys on the
 -- grid switch the screen between
@@ -209,6 +210,8 @@ function init()
 
     params:read()
     params:set('demo start/stop', 0)
+    --for some reason the demo crashes all of norns in orgnwrms, so let's not bother with that
+    params:hide('demo start/stop')
 
     wrms.load()
 
