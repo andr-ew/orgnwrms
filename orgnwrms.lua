@@ -188,7 +188,7 @@ end
 
 function App.norns()
     local _orgn = Orgn.norns()
-    local _wrms = Wrms()
+    local _wrms = Wrms.vanilla()
 
     return function()
         if page==1 then _orgn()
