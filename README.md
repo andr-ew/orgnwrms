@@ -11,6 +11,10 @@ orgn + wrms
 - wrms (v2.1 or later)
 - grid (any size) or midi keyboard
 
+## install
+
+available from the maiden catalog
+
 ## documentation
 
 for detailed documentation on orgn & wrms, check each script's dedicated documentaiton page
