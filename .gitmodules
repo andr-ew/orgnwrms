@@ -1,0 +1,12 @@
+[submodule "lib/nest"]
+	path = lib/nest
+	url = https://github.com/andr-ew/nest
+[submodule "lib/tune"]
+	path = lib/tune
+	url = https://github.com/andr-ew/tune
+[submodule "lib/cartographer"]
+	path = lib/cartographer
+	url = https://github.com/andr-ew/cartographer
+[submodule "lib/crowify"]
+	path = lib/crowify
+	url = https://github.com/21echoes/crowify
