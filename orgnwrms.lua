@@ -144,7 +144,9 @@ local function Wrm_macros(args)
                 else params:delta('clear '..wrm, 1) end
             end
         }
-        _trans()
+        if (nest.render.mode == 'redraw') or (gx < 16) then
+            _trans()
+        end
     end
 end
 
