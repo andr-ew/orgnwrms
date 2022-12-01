@@ -144,6 +144,8 @@ local function Wrm_macros(args)
                 else params:delta('clear '..wrm, 1) end
             end
         }
+
+        local gx, gy, gz = nest.grid.input_args()
         if (nest.render.mode == 'redraw') or (gx < 16) then
             _trans()
         end
